@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.container {
+    border: solid 5px black;
+    width: 60%;
+    margin: auto;
+}
+input {
+    width: 50px;
+}
+.pertambahan{
+    border: solid 5px red;
+    width: 50%;
+    color: white;
+    height: 50%;
+    padding-left: 20px;
+    background: darkkhaki;
+    text-align: center;
+    margin: 15px auto;
+    position:fixed;
+}
+.pengurangan{
+    border: solid 5px blue;
+    width: 50%;
+    color: white;
+    height: 50%;
+    padding-left: 20px;
+    background: lightblue;
+    text-align: center;
+    margin: 15px auto;
+}
+.perkalian{
+    border: solid 5px green;
+    width: 50%;
+    color: white;
+    height: 50%;
+    padding-left: 20px;
+    background:  darkolivegreen;
+    text-align: center;
+    margin: 15px auto;
+}
+.pembagian{
+    border: solid 5px yellow;
+    width: 50%;
+    height: 50%;
+    padding-left: 20px;
+    background: darkcyan;
+    color: white;
+    text-align: center;
+    margin: 15px auto;
+}
+h1{
+    text-align: center;
+    color: navy;
+}
+button{
+    background: yellow;
+    color: black;
+    border: solid 2px yellow;
+    width: 150px;
+    height: 40px;
+}
+button:hover{
+    webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+.input{
+    width: 300px;
+    height: 20px;
+    border-radius: 30px;
+    padding-left: 20px;
+    color: blue;
+    float: none;
+}
+label{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
